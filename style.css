@@ -1,0 +1,70 @@
+/* starselector, reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+section {
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+/* header */
+header {
+    text-align: center;
+    background: url(bilder/bilder/header.png.png);
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.voodoo {
+    position: relative;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+/* introduction */
+
+.hey-guys {
+    width: 80%;
+    text-align: right;
+    font-size: 3rem;
+
+}
+
+.p-start {
+    text-align: right;
+    padding-right: 5rem;
+}
+
+/* Start of Youtubability */
+
+section.youtubability {
+	border: 2px solid red;
+	display: flex;  
+	justify-content: center;
+}
+
+.article {
+	height: 30rem;
+	width: 20rem;
+	
+}
+
+#article1 {
+	background: indianred;
+}
+
+img {
+    float: right;
+}

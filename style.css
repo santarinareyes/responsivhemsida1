@@ -3,16 +3,20 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: grey;
     box-sizing: border-box;
     font-size: 16px;
 }
 
-section {
+h1, h2, h3 {
+    color: darkslategray;
+}
+
+/*article position */
+article {
     margin: auto;
     width: 80%;
     border: 3px solid green;
-    padding: 10px;
 }
 
 /* header */
@@ -34,12 +38,10 @@ header {
 
 
 /* introduction */
-
 .hey-guys {
     width: 80%;
     text-align: right;
     font-size: 3rem;
-
 }
 
 .p-start {
@@ -47,24 +49,114 @@ header {
     padding-right: 5rem;
 }
 
-/* Start of Youtubability */
-
-section.youtubability {
-	border: 2px solid red;
-	display: flex;  
-	justify-content: center;
+/* Start of Youtubability */  
+.articles1 {
+    display: flex;
 }
 
-.article {
-	height: 30rem;
-	width: 20rem;
-	
+.article1-text, .article2-text {
+    padding-top: 6rem;
 }
 
-#article1 {
-	background: indianred;
+.article1-img {
+    order: 10;
+    height: 50vh;
 }
 
-img {
-    float: right;
+.article1-h1 {
+    font-size: 1.4rem;
+}
+
+.article1-p {
+    padding-top: 1rem;
+}
+
+/* just an empty box */
+.empty-box {
+    background-color: #2b2e34;
+    height: 20vh;
+    margin-top: 2rem;
+}
+
+.articles2 {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.article2-p {
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.article2-img {
+    order: -1;
+    background-color: red;
+    height: 50vh;
+}
+
+
+
+.article3-p {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.section-totw {
+    padding-top: 25vh;
+    background: url(bilder/bilder/Q1_newsletter-02.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10vh;
+}
+
+.totw-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.totw-h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.totw-p {
+    width: 50%
+}
+
+/* footer */
+.section-footer {
+    background-color: #2b2e34;
+    padding-bottom: 2rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-h1 {
+    padding: 2rem 0 1rem 0;
+}
+
+.footer-item1, .footer-item2 {
+    width: 25rem;
+}
+
+
+.f2-1 {
+    padding: 4rem 0 1rem 0;
+}
+
+.f2-2, .f2-1 {
+    text-align: right;
+    font-style: italic;
+    border: 2px solid green;
+}
+
+.footer-h1, .footer-p {
+    color: white;
 }

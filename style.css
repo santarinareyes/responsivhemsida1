@@ -15,8 +15,7 @@ h1, h2, h3 {
 /*article position */
 article {
     margin: auto;
-    width: 80%;
-    border: 3px solid green;
+    width: 80%; 
 }
 
 /* header */
@@ -36,12 +35,17 @@ header {
     font-weight: 700;
 }
 
-
 /* introduction */
+.intro {
+    max-width: 30%;
+    margin-left: 40%;
+}
+
 .hey-guys {
     width: 80%;
     text-align: right;
     font-size: 3rem;
+    padding-bottom: 1rem;
 }
 
 .p-start {
@@ -52,10 +56,12 @@ header {
 /* Start of Youtubability */  
 .articles1 {
     display: flex;
+    justify-content: center;
 }
 
-.article1-text, .article2-text {
+.article1-text, .container-item {
     padding-top: 6rem;
+    max-width: 50%;
 }
 
 .article1-img {
@@ -75,26 +81,37 @@ header {
 .empty-box {
     background-color: #2b2e34;
     height: 20vh;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .articles2 {
     display: flex;
-    padding-bottom: 1rem;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.article2-p {
+.article2-container {
+
+}
+
+.article2-p1 {
+    padding-top: 3rem;
+    text-align: right;
+}
+
+.article2-p2 {
     padding-top: 1rem;
     text-align: right;
 }
 
 .article2-img {
     order: -1;
-    background-color: red;
     height: 50vh;
 }
 
-
+.articles3 {
+    max-width: 50%;
+}
 
 .article3-p {
     text-align: left;
@@ -154,9 +171,125 @@ header {
 .f2-2, .f2-1 {
     text-align: right;
     font-style: italic;
-    border: 2px solid green;
 }
 
 .footer-h1, .footer-p {
     color: white;
+}
+
+/* media queries */
+@media (max-width: 700px) {
+
+    /*article position */
+    article {
+    width: 80%;
+    }
+    /* introduction */
+    .hey-guys {
+        width: 100%;
+        text-align: left;
+        font-size: 2rem;
+        padding-bottom: .5rem;
+    }
+
+    .p-start {
+        padding: 0;
+        text-align: left;
+    }
+
+    /* Start of Youtubability */  
+    .articles1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article1-text, .article2-container {
+        padding-top: 0;
+        max-width: 75%;
+    }
+
+    .article1-img {
+        order: -1;
+        height: 50vh;
+        width: 65%;
+    }
+
+    .article1-h1 {
+        font-size: 1.4rem;
+    }
+
+    .article1-p {
+        padding-bottom: 1rem;
+    }
+
+    .articles2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid black;
+        align-items: center;
+        max-width: 100%;
+    }
+    
+    .article2-p1 {
+        padding-top: 0;
+        text-align: left;
+    }
+    
+    .article2-p2 {
+        padding-top: 1rem;
+        text-align: left;
+    }
+    
+    .article2-img {
+        order: -1;
+        height: 50vh;
+    }
+
+    .article3-p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 890px) {
+    .intro {
+        max-width: 100%;
+        margin-left: 35%;
+        }
+}
+
+
+@media (max-width: 1110px) {
+    .article2-p1 {
+        padding-top: 1rem;
+        text-align: right;
+    }
+}
+
+@media (max-width: 1120px) {
+    .intro {
+        max-width: 50%;
+        margin-left: 40%;
+        }
+}
+
+    .article2-p1 {
+    padding-top: 1rem;
+    text-align: right;
+    }
+}
+
+@media (max-width: 1380px) {
+    .intro {
+    max-width: 40%;
+    margin-left: 40%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .intro {
+    max-width: 34%;
+    margin-left: 35%;
+    }
 }

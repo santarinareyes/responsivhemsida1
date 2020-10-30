@@ -1,19 +1,20 @@
 /* introduction */
-.intro {
-    max-width: 30%;
-    margin-left: 40%;
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 70%;
 }
 
 .hey-guys {
-    width: 80%;
     text-align: right;
     font-size: 3rem;
     padding-bottom: 1rem;
 }
 
 .p-start {
+    width: 40%;
     text-align: right;
-    padding-right: 5rem;
 }
 
 /* Start of Youtubability */  
@@ -70,7 +71,7 @@
 
 .articles3 {
     margin: auto;
-    max-width: 50%;
+    max-width: 80%;
 }
 
 .article3-p {
@@ -100,5 +101,5 @@
 }
 
 .totw-p {
-    width: 50%
+    width: 80%
 }

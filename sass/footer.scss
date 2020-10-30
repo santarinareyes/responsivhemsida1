@@ -1,0 +1,36 @@
+/* footer */
+.section-footer {
+    background-color: #2b2e34;
+    padding-bottom: 2rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-h2 {
+    padding: 2rem 0 1rem 0;
+}
+
+.footer-item1, .footer-item2 {
+    width: 25rem;
+}
+
+.footer-item1 {
+    margin-right: 2rem;
+}
+
+.f2-1 {
+    padding: 4rem 0 1rem 0;
+}
+
+.f2-2, .f2-1 {
+    text-align: right;
+    font-style: italic;
+}
+
+.footer-h2, .footer-p {
+    color: white;
+}

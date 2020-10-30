@@ -1,14 +1,17 @@
 /* media queries */
 @media (max-width: 700px) {
     /* introduction */
-    .intro {
-        max-width: 100%;
-        margin: 0;
+    .introduction {
+        width: 75%;
     }
     .hey-guys {
         text-align: left;
         font-size: 2rem;
         padding-bottom: .5rem;
+    }
+
+    .p-start {
+        width: 80%;
     }
 
     /* Start of You8ubability */  

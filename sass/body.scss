@@ -42,10 +42,12 @@
 }
 
 /* just an empty box */
-.empty-box {
-    background-color: #2b2e34;
-    height: 20vh;
+.video-section {
     margin-top: 3rem;
+    background-color: #2b2e34;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
 }
 
 .articles2 {

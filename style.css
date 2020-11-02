@@ -67,11 +67,13 @@ header {
 
 /* just an empty box */
 .video-section {
-  margin-top: 3rem;
   background-color: #2b2e34;
-  height: 40vh;
   display: flex;
   justify-content: center; }
+
+.video {
+  height: 40vh;
+  width: 100%; }
 
 .articles2 {
   display: flex;
@@ -152,6 +154,10 @@ header {
   color: white; }
 
 /* media queries */
+@media (max-width: 627px) {
+  .video-section {
+    background-color: white; } }
+
 @media (max-width: 700px) {
   /* introduction */
   .introduction {

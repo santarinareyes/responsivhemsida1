@@ -43,11 +43,15 @@
 
 /* just an empty box */
 .video-section {
-    margin-top: 3rem;
     background-color: #2b2e34;
-    height: 40vh;
     display: flex;
     justify-content: center;
+}
+
+.video {
+    height: 40vh;
+    width: 100%;
+
 }
 
 .articles2 {
